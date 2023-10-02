@@ -1,0 +1,12 @@
+.scroll-up {
+    position: fixed;
+    opacity: 70%;
+    right: 20px;
+    bottom: 30px;
+    font-size: 2.5rem;
+    transition: all .3s linear;
+    z-index: 998;
+    &:hover {
+        opacity: 100%;
+    }
+}

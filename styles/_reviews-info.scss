@@ -1,0 +1,39 @@
+.reviews-info {
+    margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px 5px rgba(239, 153, 43, 0.5);
+    transition: .5s;
+    padding: 30px 20px;
+    margin-top: 10px;
+    &:first-child {
+        margin-left: 10px;
+    }
+    &:hover {
+        transform: scale(0.97);
+        background-color: rgba(239, 153, 43, 0.1);
+    }
+    img {
+        max-width: 350px;
+        width: 100%;
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .reviews-info {
+        &__title {
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .reviews-info {
+        min-width: 110px;
+    }
+}

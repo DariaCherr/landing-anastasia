@@ -1,0 +1,12 @@
+.comments {
+    min-width: 0;
+    // text-align: left;
+    // padding: 80px 40px;
+    //}
+}
+
+@media screen and (max-width: 770px) {
+    .comments {
+        padding: 50px 0;
+    }
+}
